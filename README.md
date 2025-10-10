@@ -2,6 +2,10 @@
 ## Project
 
 This is a Google Colab based Python project that exlores the relationship between various variables in a NHANES dataset. 
+
+<details>
+<summary>1. Marital Status</summary>  
+<br />
 STEPS:
 - Data loading and preperation
   - Clean data before performing analyses
@@ -11,7 +15,8 @@ STEPS:
 - Visualizations (where relevant)
 - Brief summaries
 - Code, results, and any explanations are documented clearly within the notebook.
-
+  
+</details>
 
 ## Analyses
 
