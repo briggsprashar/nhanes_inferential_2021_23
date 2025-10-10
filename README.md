@@ -54,7 +54,7 @@ Variables: WHD020 (self-reported weight, cleaned) and PAD680 (sedentary behavior
   <summary>5. Misc. Analysis</summary>  
 <br />
 
-
+</details>
 
 </details>
 <br />
