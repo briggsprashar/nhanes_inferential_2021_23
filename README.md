@@ -1,6 +1,16 @@
 # Inferential-Stats
 ## Project
 
+This is a Google Colab based Python project that exlores the relationship between various variables in a NHANES dataset. 
+STEPS:
+- Data loading and preperation
+  - Clean data before performing analyses
+    - Categorical variables: check and document frequency counts to confirm data consistency
+    - Continuous variables: check for placeholder values (7777, 9999) and handle these as appropriate (e.g., by removing or imputing)
+- Analysis and/or transformations
+- Visualizations (where relevant)
+- Brief summaries
+- Code, results, and any explanations are documented clearly within the notebook.
 
 
 ## Analyses
