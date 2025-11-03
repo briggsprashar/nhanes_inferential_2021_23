@@ -1,0 +1,21 @@
+# Python
+pandas
+pyreadstat  
+requests
+seaborn
+scipy
+matplotlib
+
+numpy
+chi2_contingency (from scipy.stats)
+f_oneway (from scipy.stats)
+os
+
+# R
+haven       # Equivalent to pyreadstat
+tidyverse   # Includes ggplot2, dplyr, readr, etc. (covers pandas/seaborn functionality)
+httr        # Equivalent to requests
+ggplot2     # For data visualization (like seaborn/matplotlib)
+pracma      # For numerical methods and scientific computing
+
+stats
