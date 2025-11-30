@@ -1,73 +1,171 @@
-# Inferential-Stats
+# NHANES Inferential-Stats
 ## Project
 
-This is a Google Colab based Python project that exlores the relationship between various variables in a NHANES dataset. 
+Google Colab based Python project to exlore using statistical tools the relationship between various variables (demographic, behavioral, and health variables) from  National Health and Nutrition Examination Survey (NHANES) datasets. 
 
 <details>
 <summary>Steps</summary>  
 <br />
 
-- Data loading and preperation
-  - Clean data before performing analyses
-    - Categorical variables: check and document frequency counts to confirm data consistency
-    - Continuous variables: check for placeholder values (7777, 9999) and handle these as appropriate (e.g., by removing or imputing)
-- Analysis and/or transformations
-- Visualizations (where relevant)
-- Brief summaries
-- Code, results, and any explanations are documented clearly within the notebook.
+1. **Data loading and preperation**
+    - Data was loaded, prepared (renamed, merged, etc.), explored and analysed using
+      - Python 
+      - Python & R, and 
+      - R 
+    - Various statistical tools were used for analysies
+
+2. **Downloading NHANES Files**
+    - Three Methods to Run the Report
+      - **Automated Script Download**
+        - Runtime: Python
+        - Use a Python script to download the .xpt files into specified folders, followed by converting these files to CSV format within Python (not R)
+      - **Direct URL Download with R**
+        - Runtime: R & Python
+        - Download the .xpt files directly inside the R notebook by providing their web URLs, then process the data using Python.
+      - **Accessing via URL in R**
+        - Runtime: R
+        - Use R to directly access the .xpt files online through their URLs, eliminating the need to download them locally.
+
+3. **Transformations & Analysis**  
+    
+    - Follow the instructions within the notebook (.ipynb) to download, rename, save and process NHANES datasets.
+    
+    - Execute each file sequenced in the notebook to clean, combine, and analyze the data.
+      - Clean and recode (to map lists) variables (Columns and values) before performing analyses
+      - Statistical tests are chosen according to research inquiry and data types.
+    
+        (Categorical variables)
+        - Check and rename all columns of the datasets. 
+        - Document frequency counts to confirm data consistency.
+
+        (Continuous variables)
+        - Check for placeholder values (7777, 9999) 
+        - Handle as appropriate (e.g., by removing or imputing)
+
+4. **Visualizations**
+    - Check the results and visualizations to interpret patterns and insights in the .ipynb file. 
+
+5. **Notebook**
+    - Code, results, and explanations are documented in the Notebook.
+
+6. **Brief summaries included below**
   
 </details>
+
+## Reproducibility
+
+- Follow the flow in the .ipynb notebook
+- Follow the folder structure
+  - Files are downloaded from NHANES website links (included in Part 1: Python code)
 
 ## Analyses
 
 <details>
-<summary>1. Marital Status</summary>  
+<summary>1. Marital Status & Education Level</summary>  
 <br />
 
 > Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)"
 
-Variables: `DMDMARTZ` (marital status) and `DMDEDUC2` (education level). Recode as specified.
+Variables explored: 
+- `DMDMARTZ` (Marital Status)
+- `DMDEDUC2` (Education Level) 
+
+Stastical method: Chi Square Test 
+
+✅ Statistically significant association between marital status and education level.
+- People who are married are more likely to hold a bachelor’s degree or higher compared to those who are single, divorced, separated, or widowed.
+- The analysis of the dataset suggests a positive association between education level and marital status.
+
+*Full interpretation in the notebook*
   
 </details>
 <br />
 
 <details>
-  <summary>2. Mean Sedentary Behavior</summary>  
+  <summary>2. Marital Status & Mean Sedentary Behavior</summary>  
 <br />
 
 > Is there a difference in the mean sedentary behavior time between those who are married and those who are not married??
 
-Variables: `DMDMARTZ` (marital status, recoded) and `PAD680` (sedentary behavior time, cleaned).
+Variables explored: 
+- `DMDMARTZ` (Marital Status)
+- `PAD680` (Sedentary Behavior Time)  
+
+Stastical method: One-way Anova
+
+✅ Statistically significant difference in mean sedentary behavior time across marital status groups.
+- The analysis revealed a statistically significant variation in average sedentary time across different marital status groups. 
+- Single individuals recorded the highest average sedentary time (382.43 minutes), followed by those who were widowed, divorced, or separated (363.46 minutes), while married individuals had the lowest (353.29 minutes). 
+- The result suggests that marital status may be associated with differences in sedentary behavior (single people are more likely to engage in sedentary behavior than those who are married or widowed/divorced/separated.)
+
+*Full interpretation in the notebook*
+
   
 </details>
 <br />
 
 <details>
-  <summary>3. BP Systolic </summary>  
+  <summary>3. Marital Status & BP Systolic </summary>  
 <br />
 
 > How do age and marital status affect systolic blood pressure?
 
-Variables: `RIDAGEYR` (age), `DMDMARTZ` (marital status, recoded), and `BPXOSY3` (systolic blood pressure).
+Variables explored: 
+- `RIDAGEYR` (Age)
+- `DMDMARTZ` (Marital Status) 
+- `BPXOSY3` (Systolic BP)  
 
+Stastical method: One-way Anova
+
+✅ Statistically significant difference in systolic blood pressure across marital status groups.
+- The analysis showed a statistically significant difference in average systolic blood pressure among marital status groups. 
+- Individuals who were widowed, divorced, or separated had the highest average (126.1 mmHg), followed by married individuals (122.6 mmHg), while single individuals had the lowest (118.8 mmHg). 
+- These findings suggest that marital status may be related to differences in blood pressure levels.
+
+*Full interpretation with further age group distribution in the notebook*
 
 </details>
 <br />
 
 <details>
-  <summary>4. Weight and sedentary behavior  </summary>  
+  <summary>4. Weight & Sedentary Behavior</summary>  
 <br />
 
 > Is there a correlation between self-reported weight and minutes of sedentary behavior?
 
-Variables: `WHD020` (self-reported weight, cleaned) and `PAD680` (sedentary behavior time, cleaned).
+Variables explored: 
+- `WHD020` (Weight) 
+- `PAD680` (Sedentary Behavior Time)  
+
+Stastical method: Pearsons correlation
+
+✅ Statistically significant association between marital status and depressive symptoms.
+- The correlation between sedentary time and self-reported weight was 0.16, showing a very weak positive relationship. 
+- This means that people who spend more time being sedentary tend to have slightly higher weights, though the connection is minimal and likely not meaningful in practical terms.
+
+*Full interpretation in the notebook*
+
 
 </details>
 <br />
 
 <details>
-  <summary>5. Misc. Analysis</summary>  
+  <summary>5. Marital Status & Depression</summary>  
 <br />
+
+> Is there an association between marital status and frequency of depressive symptoms?
+
+Variables explored: 
+- `DMDMARTZ` (Marital Status) 
+- `DPQ020` (Depressive Symptoms Frequency) 
+
+Statistical method: Chi Square test
+
+✅ Statistically significant association between marital status and depressive symptoms.
+
+- 
+
+*Full interpretation in the notebook*
 
 </details>
 
