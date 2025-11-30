@@ -82,9 +82,9 @@ Google Colab based Python project to exlore using statistical tools the relation
 <summary>1. Marital Status & Education Level</summary>  
 <br />
 
-Location in .ipynb file: `In [19]:`
+*Note: Location in .ipynb file: `In [19]:`*
 
-> Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?
+**Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?**
 
 `YES - Positive association` (in the sample data)
 
@@ -121,9 +121,9 @@ Stastical method: Chi Square Test
   <summary>2. Marital Status & Mean Sedentary Behavior</summary>  
 <br />
 
-Location in .ipynb file: `In [25]:`
+*Note: Location in .ipynb file: `In [25]:`*
 
-> Is there a difference in the mean sedentary behavior time between those who are married and those who are not married??
+**Is there a difference in the mean sedentary behavior time between those who are married and those who are not married?**
 
 `YES - Married people are associated with less sedentary behavior time` (in the sample data)
 
@@ -162,9 +162,9 @@ Stastical method: One-way Anova
   <summary>3. Marital Status & BP Systolic </summary>  
 <br />
 
-Location in .ipynb file: `In [31]:`
+*Note: Location in .ipynb file: `In [31]:`*
 
-> How do age and marital status affect systolic blood pressure?
+**How do age and marital status affect systolic blood pressure?**
 
 `Single people have lowest SBP. followed by married people, with  widowed, divorced, or separated with highest SBP` (in the sample data)
 
@@ -208,11 +208,11 @@ Stastical method: One-way Anova
   <summary>4. Weight & Sedentary Behavior</summary>  
 <br />
 
-Location in .ipynb file: `In [43]:`
+*Note: Location in .ipynb file: `In [43]:`*
 
 *Avoidable use of `pd.set_option('display.max_rows', None)` in `In [44]:`, `In [48]:` & `In [55]:` displays the full CSV file in the .ipynb file on Github.*
 
-> Is there a correlation between self-reported weight and minutes of sedentary behavior?
+**Is there a correlation between self-reported weight and minutes of sedentary behavior?**
 
 `Very weak correlation` (in the sample data)
 
@@ -249,11 +249,11 @@ Stastical method: Pearsons correlation
   <summary>5. Marital Status & Depression</summary>  
 <br />
 
-Location in .ipynb file: `In [53]:`
+*Note: Location in .ipynb file: `In [53]:`*
 
-> Is there an association between marital status and frequency of depressive symptoms?
+**Is there an association between marital status and frequency of depressive symptoms?**
 
-`Strong association, with marriage appearing protective and non-married statuses associated with higher symptom burden ` (in the sample data)
+`YES: Strong association, with marriage appearing protective and non-married statuses associated with higher symptom burden ` (in the sample data)
 
 Variables explored: 
 - `DMDMARTZ` (Marital Status) 
