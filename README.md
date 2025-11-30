@@ -19,12 +19,16 @@ Google Colab based Python project to exlore using statistical tools the relation
       - **Automated Script Download**
         - Runtime: Python
         - Use a Python script to download the .xpt files into specified folders, followed by converting these files to CSV format within Python (not R)
+        - Full Code done: Setup, download, exploration, cleaning and transformation done
       - **Direct URL Download with R**
         - Runtime: R & Python
         - Download the .xpt files directly inside the R notebook by providing their web URLs, then process the data using Python.
+        - Only setup and download demonstrated
       - **Accessing via URL in R**
         - Runtime: R
         - Use R to directly access the .xpt files online through their URLs, eliminating the need to download them locally.
+        - Setup, cleaning, download and analysis demonstrated
+        
 
 3. **Transformations & Analysis**  
     
@@ -64,6 +68,8 @@ Google Colab based Python project to exlore using statistical tools the relation
 <summary>1. Marital Status & Education Level</summary>  
 <br />
 
+Location in .ipynb file: `In [19]:`
+
 > Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)"
 
 Variables explored: 
@@ -84,6 +90,8 @@ Stastical method: Chi Square Test
 <details>
   <summary>2. Marital Status & Mean Sedentary Behavior</summary>  
 <br />
+
+Location in .ipynb file: `In [25]:`
 
 > Is there a difference in the mean sedentary behavior time between those who are married and those who are not married??
 
@@ -108,6 +116,8 @@ Stastical method: One-way Anova
   <summary>3. Marital Status & BP Systolic </summary>  
 <br />
 
+Location in .ipynb file: `In [31]:`
+
 > How do age and marital status affect systolic blood pressure?
 
 Variables explored: 
@@ -131,6 +141,10 @@ Stastical method: One-way Anova
   <summary>4. Weight & Sedentary Behavior</summary>  
 <br />
 
+Location in .ipynb file: `In [43]:`
+
+*Avoidable use of `pd.set_option('display.max_rows', None)` in `In [44]:`, `In [48]:` & `In [55]:` displays the full CSV file in the .ipynb file on Github.*
+
 > Is there a correlation between self-reported weight and minutes of sedentary behavior?
 
 Variables explored: 
@@ -152,6 +166,8 @@ Stastical method: Pearsons correlation
 <details>
   <summary>5. Marital Status & Depression</summary>  
 <br />
+
+Location in .ipynb file: `In [53]:`
 
 > Is there an association between marital status and frequency of depressive symptoms?
 
