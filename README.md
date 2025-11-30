@@ -93,10 +93,10 @@ Visualization
 Stastical method: Chi Square Test 
 
 ✅ Statistically significant association between marital status and education level.
-- People who are married are more likely to hold a bachelor’s degree or higher compared to those who are single, divorced, separated, or widowed.
-- The analysis of the dataset suggests a positive association between education level and marital status.
 
-*Full interpretation in the notebook*
+- People who are married are more likely to hold a bachelor’s degree or higher compared to those who are single, divorced, separated, or widowed.
+
+- The analysis of the dataset suggests a positive association between education level and marital status.
   
 </details>
 <br />
@@ -130,13 +130,13 @@ Visualization
 Stastical method: One-way Anova
 
 ✅ Statistically significant difference in mean sedentary behavior time across marital status groups.
+
 - The analysis revealed a statistically significant variation in average sedentary time across different marital status groups. 
+
 - Single individuals recorded the highest average sedentary time (382.43 minutes), followed by those who were widowed, divorced, or separated (363.46 minutes), while married individuals had the lowest (353.29 minutes). 
+
 - The result suggests that marital status may be associated with differences in sedentary behavior (single people are more likely to engage in sedentary behavior than those who are married or widowed/divorced/separated.)
 
-*Full interpretation in the notebook*
-
-  
 </details>
 <br />
 
@@ -174,11 +174,12 @@ Visualization
 Stastical method: One-way Anova
 
 ✅ Statistically significant difference in systolic blood pressure across marital status groups.
-- The analysis showed a statistically significant difference in average systolic blood pressure among marital status groups. 
-- Individuals who were widowed, divorced, or separated had the highest average (126.1 mmHg), followed by married individuals (122.6 mmHg), while single individuals had the lowest (118.8 mmHg). 
-- These findings suggest that marital status may be related to differences in blood pressure levels.
 
-*Full interpretation with further age group distribution in the notebook*
+- The analysis showed a statistically significant difference in average systolic blood pressure among marital status groups. 
+
+- Individuals who were widowed, divorced, or separated had the highest average (126.1 mmHg), followed by married individuals (122.6 mmHg), while single individuals had the lowest (118.8 mmHg). 
+
+- These findings suggest that marital status may be related to differences in blood pressure levels.
 
 </details>
 <br />
@@ -214,11 +215,10 @@ Visualization
 Stastical method: Pearsons correlation
 
 ✅ Statistically significant association between marital status and depressive symptoms.
+
 - The correlation between sedentary time and self-reported weight was 0.16, showing a very weak positive relationship. 
-- This means that people who spend more time being sedentary tend to have slightly higher weights, though the connection is minimal and likely not meaningful in practical terms.
 
-*Full interpretation in the notebook*
-
+- This means that people who spend more time being sedentary tend to have slightly higher weights (there could be other variables at play as well; though dedebtary lifestyle y itself, ignoring all other factors, tends to in increase weight).
 
 </details>
 <br />
@@ -253,7 +253,9 @@ Statistical method: Chi Square test
 
 ✅ Statistically significant association between marital status and depressive symptoms.
 
-*Full interpretation in the notebook*
+- There is a strong, statistically significant association between marital status and reported depressive symptoms in this sample. Married people report “Not at all” depressive symptoms most often, while single and widowed/divorced/separated individuals show relatively higher frequencies of depressive symptoms.
+
+- The visual pattern and chi-square test indicate that marital status is meaningfully related to how often people experience depressive symptoms, with marriage appearing protective and non-married statuses associated with higher symptom burden in this dataset
 
 </details>
 <br />
