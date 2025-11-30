@@ -76,6 +76,20 @@ Variables explored:
 - `DMDMARTZ` (Marital Status)
 - `DMDEDUC2` (Education Level) 
 
+<br />
+
+<img src="images/1.png" alt="Marital Status & Education Level" width="800">
+
+<br />
+
+Visualization
+
+<br />
+
+<img src="images/1v.png" alt="VMarital Status & Depression" width="300">
+
+<br />
+
 Stastical method: Chi Square Test 
 
 ✅ Statistically significant association between marital status and education level.
@@ -98,6 +112,20 @@ Location in .ipynb file: `In [25]:`
 Variables explored: 
 - `DMDMARTZ` (Marital Status)
 - `PAD680` (Sedentary Behavior Time)  
+
+<br />
+
+<img src="images/2.png" alt="Marital Status & Mean Sedentary Behavior" width="800">
+
+<br />
+
+Visualization
+
+<br />
+
+<img src="images/2v.png" alt="V1Marital Status & Mean Sedentary Behavior" width="300">
+
+<br />
 
 Stastical method: One-way Anova
 
@@ -125,6 +153,24 @@ Variables explored:
 - `DMDMARTZ` (Marital Status) 
 - `BPXOSY3` (Systolic BP)  
 
+<br />
+
+<img src="images/3.png" alt="Marital Status & BP Systolic" width="800">
+
+<br />
+
+Visualization
+
+<br />
+
+<img src="images/3v1.png" alt="v1Marital Status & BP Systolic" width="500">
+
+<br />
+
+<img src="images/3v2.png" alt="v2Marital Status & BP Systolic" width="500">
+
+<br />
+
 Stastical method: One-way Anova
 
 ✅ Statistically significant difference in systolic blood pressure across marital status groups.
@@ -151,6 +197,20 @@ Variables explored:
 - `WHD020` (Weight) 
 - `PAD680` (Sedentary Behavior Time)  
 
+<br />
+
+<img src="images/4.png" alt="Weight & Sedentary Behavior" width="800">
+
+<br />
+
+Visualization
+
+<br />
+
+<img src="images/4v.png" alt="vWeight & Sedentary Behavior" width="500">
+
+<br />
+
 Stastical method: Pearsons correlation
 
 ✅ Statistically significant association between marital status and depressive symptoms.
@@ -175,15 +235,25 @@ Variables explored:
 - `DMDMARTZ` (Marital Status) 
 - `DPQ020` (Depressive Symptoms Frequency) 
 
+<br />
+
+<img src="images/5.png" alt="Marital Status & Depression" width="800">
+
+<br />
+
+Visualization
+
+<br />
+
+<img src="images/5v.png" alt="vMarital Status & Depression Viz" width="500">
+
+<br />
+
 Statistical method: Chi Square test
 
 ✅ Statistically significant association between marital status and depressive symptoms.
 
-- 
-
 *Full interpretation in the notebook*
-
-</details>
 
 </details>
 <br />
