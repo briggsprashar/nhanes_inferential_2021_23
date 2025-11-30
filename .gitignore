@@ -1,3 +1,5 @@
 1.md
 .venv
 .vscode
+
+.DS_Store
