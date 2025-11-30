@@ -28,9 +28,22 @@ Google Colab based Python project to exlore using statistical tools the relation
         - Runtime: R
         - Use R to directly access the .xpt files online through their URLs, eliminating the need to download them locally.
         - Setup, cleaning, download and analysis demonstrated
-        
 
-3. **Transformations & Analysis**  
+
+3. **NHANES variables for analysis**
+
+    - Marital Status (DMDMARTZ) - categorical, needs recoding (married or not married).
+    - Education Level (DMDEDUC2) - categorical, needs recoding (bachelor’s or higher vs. less than bachelor’s).
+    - Age in Years (RIDAGEYR) - continuous.
+    - Systolic Blood Pressure (BPXOSY3) - continuous.
+    - Diastolic Blood Pressure (BPXODI3) - continuous.
+    - Vitamin D Lab Interpretation (LBDVD2LC) - categorical, two levels.
+    - Hepatitis B Lab Antibodies (LBXHBS) - categorical, needs recoding to two levels.
+    - Weak/Failing Kidneys (KIQ022) - categorical, can be treated as two levels.
+    - Minutes of Sedentary Behavior (PAD680) - continuous, needs cleaning (remove values 7777, 9999, and null).
+    - Current Self-Reported Weight (WHD020) - continuous, needs cleaning (remove values 7777, 9999, and null).
+
+4. **Transformations & Analysis**  
     
     - Follow the instructions within the notebook (.ipynb) to download, rename, save and process NHANES datasets.
     
@@ -44,15 +57,16 @@ Google Colab based Python project to exlore using statistical tools the relation
 
         (Continuous variables)
         - Check for placeholder values (7777, 9999) 
+          -  Did not remove 7777, 9999, and null to see the full dataset character and visualizations; eg, in the dataset, when many more do not respond to a question, it tells a lot about the result. 
         - Handle as appropriate (e.g., by removing or imputing)
 
-4. **Visualizations**
+5. **Visualizations**
     - Check the results and visualizations to interpret patterns and insights in the .ipynb file. 
 
-5. **Notebook**
+6. **Notebook**
     - Code, results, and explanations are documented in the Notebook.
 
-6. **Brief summaries included below**
+7. **Brief summaries included below**
   
 </details>
 
@@ -70,7 +84,9 @@ Google Colab based Python project to exlore using statistical tools the relation
 
 Location in .ipynb file: `In [19]:`
 
-> Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)"
+> Is there an association between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?
+
+`YES - Positive association` (in the sample data)
 
 Variables explored: 
 - `DMDMARTZ` (Marital Status)
@@ -108,6 +124,8 @@ Stastical method: Chi Square Test
 Location in .ipynb file: `In [25]:`
 
 > Is there a difference in the mean sedentary behavior time between those who are married and those who are not married??
+
+`YES - Married people are associated with less sedentary behavior time` (in the sample data)
 
 Variables explored: 
 - `DMDMARTZ` (Marital Status)
@@ -147,6 +165,8 @@ Stastical method: One-way Anova
 Location in .ipynb file: `In [31]:`
 
 > How do age and marital status affect systolic blood pressure?
+
+`Single people have lowest SBP. followed by married people, with  widowed, divorced, or separated with highest SBP` (in the sample data)
 
 Variables explored: 
 - `RIDAGEYR` (Age)
@@ -194,6 +214,8 @@ Location in .ipynb file: `In [43]:`
 
 > Is there a correlation between self-reported weight and minutes of sedentary behavior?
 
+`Very weak correlation` (in the sample data)
+
 Variables explored: 
 - `WHD020` (Weight) 
 - `PAD680` (Sedentary Behavior Time)  
@@ -230,6 +252,8 @@ Stastical method: Pearsons correlation
 Location in .ipynb file: `In [53]:`
 
 > Is there an association between marital status and frequency of depressive symptoms?
+
+`Strong association, with marriage appearing protective and non-married statuses associated with higher symptom burden ` (in the sample data)
 
 Variables explored: 
 - `DMDMARTZ` (Marital Status) 
