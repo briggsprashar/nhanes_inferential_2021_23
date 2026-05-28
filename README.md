@@ -100,7 +100,7 @@ Variables explored:
 
 *Chi-square statistic* is a measure that assesses how well observed data fit the expected outcome. 
     157.97 indicates that there is a significant difference b/w the expected frequencies and the observed frequencies in the 2 categories, marital status and edu level.
-    157.97 chi-sq stastistic suggests that these 2 variables are likely not independent, and that there is some association b/w them.
+    157.97 chi-sq stastistic suggests that these 2 variables are likely not independent, and that there is some association b/w them. There is a statistically significant association b/w them, and the null hypothesis, that there is no association b/w the 2 is rejected.
 
 *Degrees of freedom* refers to the # of independent values that can vary in a statistical calculation. 
     This value is critical for determining the critical value of the chi-square statistic from the chi-square distribution table
