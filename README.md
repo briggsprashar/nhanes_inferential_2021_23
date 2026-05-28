@@ -98,6 +98,11 @@ Variables explored:
 
 <br />
 
+*Chi-square statistic* is a measure that assesses how well observed data fit the expected outcome. Commonly applied to categorical data analysis as in this case) to determine if there is a significant difference b/w the expected frequencies and the observed frequencies in the 2 categories - marital status and edu level.
+
+
+
+
 Visualization
 
 <br />
