@@ -12,7 +12,7 @@ Google Colab based Python project to exlore using statistical tools the relation
       - Python 
       - Python & R, and 
       - R 
-    - Various statistical tools were used for analysies
+    - Various statistical tools were used for analyses
 
 2. **Downloading NHANES Files**
     - Three Methods to Run the Report
@@ -103,12 +103,11 @@ Variables explored:
     157.97 chi-sq stastistic suggests that these 2 variables are likely not independent, and that there is some association b/w them. There is a statistically significant association b/w them, and the null hypothesis, that there is no association b/w the 2 is rejected.
 
 *Degrees of freedom* refers to the # of independent values that can vary in a statistical calculation. 
-    This value is critical for determining the critical value of the chi-square statistic from the chi-square distribution table
+    Chi-square statistic of 157.97 and the degrees of freedom of 2 indicate a significant difference between the observed and expected frequencies in your data, suggesting that the null                     hypothesis can be rejected. A chi-square value this high with only 2 degrees of freedom would correspond to a very low p-value, indicating strong evidence against the null hypothesis.
 
-*P-value* is a statistical measure that helps determine the significance of the results obtained from a hypothesis test. 
-    It indicates the probability of observing the test results, or more extreme results, assuming the null hypothesis is true.
+*P-value* is a statistical measure that helps determine the significance of the results obtained from a hypothesis test. As has been established above, null hypothesis is rejected.
         A low p-value (typically < 0.05) suggests that the observed data (results) are statistically significant, suggesting strong evidence against the null hypothesis: the null hypothesis is                       rejected.
-        A high p-value (typically > .05) suggests that the results are not statistically significant, indicating insufficient evidence to reject the null hypothesis.
+        A high p-value (typically > .05) suggests that the results are not statistically significant, indicating insufficient evidence rejecting the hypothesis.
 
 Visualization
 
