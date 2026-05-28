@@ -98,10 +98,16 @@ Variables explored:
 
 <br />
 
-*Chi-square statistic* is a measure that assesses how well observed data fit the expected outcome. Commonly applied to categorical data analysis as in this case) to determine if there is a significant difference b/w the expected frequencies and the observed frequencies in the 2 categories - marital status and edu level.
+*Chi-square statistic* is a measure that assesses how well observed data fit the expected outcome. 
+    It is commonly applied to categorical data analysis (as in this case) to determine if there is a significant difference b/w the expected frequencies and the observed frequencies in the 2 categories -        marital status and edu level.
 
+*Degrees of freedom* refers to the # of independent values that can vary in a statistical calculation. 
+    This value is critical for determining the critical value of the chi-square statistic from the chi-square distribution table
 
-
+*P-value* is a statistical measure that helps determine the significance of the results obtained from a hypothesis test. 
+    It indicates the probability of observing the test results, or more extreme results, assuming the null hypothesis is true.
+        A low p-value (typically < 0.05) suggests that the observed data (results) are statistically significant, suggesting strong evidence against the null hypothesis: the null hypothesis is                       rejected.
+        A high p-value (typically > .05) suggests that the results are not statistically significant, indicating insufficient evidence to reject the null hypothesis.
 
 Visualization
 
